@@ -60,7 +60,7 @@ This webpage is a continuation of the above website created for task 1. Styling 
 * -Below the form, my basic contact info is provided, with appropriate semantic tags(eg. <address></address> for the address). fontawesome icons are again used for every contact detail, to make the overall layout more visually appealing. email link provided redirects to the users' default mail inbox, with a mail addressed to my given id composed as: Subject:'Enter Subject' and body:'Write your message here'.
 * -in a similar fashion as in the previous webpage, the footer section is provided with links to various social media accounts. Upon cursor hover again shadow and color-change highlight occurs. copyright stamp is provided.
 
-##SCREENSHOTS
+## SCREENSHOTS
 1.Contactme.html
 ![Contact me page](/Screenshots/Contactme.png)
 ![home icon](/Screenshots/Home_icon.png)
@@ -96,7 +96,7 @@ A simple webpage displaying world-wide country-wise data on COVID19 stats includ
 * next, a table element is created. Object property names are accessed using the Object.keys() function and stored in an array . Similarly, no of columns, object property values etc values are accessed and stored in respective variables. Use of Loops, nested loops, insertRow() , document.createElement , appendChild, insertCell methods are used to create 1.The header row first , cell by cell and consequently: 2.Create the rest of the data rows, cell by cell. Looping constructs used are the for-loop and nested-for loop.
 * finally the element created initially with id="myTable" in the HTML document is accessed and the element 'table' thus generated is appended to the HTML page body.
 
-##SCREENSHOTS
+## SCREENSHOTS
 ![Covid data table](/covid1.png)
 
 ![Covid data table](/covid2.png)
