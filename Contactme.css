@@ -1,0 +1,132 @@
+body{
+	background-color: Bisque;
+}
+* {
+  box-sizing: border-box;
+}
+
+.nav_items{
+   background-color: #4d0715;
+   padding: 16px 16px;
+   text-align: Center;
+   max-width: 100%;
+   height: auto;
+   list-style-type: None;
+   position: sticky;
+   top: 0;
+  }
+  @media screen and (max-width: 600px) {
+    ul.nav_items li {display: Block;}
+   }
+
+.nav_items li{
+  display: Inline;
+  align-items: Center;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.nav_items a { 
+    float: None;
+    text-align: Center;
+    color: Ivory;
+    text-decoration: None;
+    font-family: Dancing Script;
+    font-size: 30px;
+    font-stretch: Ultra-Expanded;
+    padding: 16px 16px;
+
+}
+ .nav_items a:hover{
+       background-color: Ivory;
+       color: #4d0715;
+       font-weight: bold;
+       transition: background-color 0.2s;
+       box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6), 0 4px 8px 0 rgba(0,0,0,0.6);
+       transition: box-shadow 0.2s;
+}
+
+.header{
+  color: #530000;
+  font-family: Spectral;
+  font-size: 30px;
+  font-weight: 80;
+  margin-left: 20px;
+ }
+
+.form{
+  margin-left: 0.3125em;
+  font-family: Kalam;
+  color: #4d0715;
+  font-size: 25px;
+}
+
+input:required{
+  padding: 5px;
+}
+input:focus{
+  padding: 5px;
+  border-bottom: 5px solid #4d0715;
+  background-color:  #cab5b9;
+
+}
+ 
+ button{
+  padding: 7px;
+  background-color:#4d0715;
+  color: Ivory;
+  font-family: Spectral;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+ }
+button:hover{
+  opacity: 90%;
+}
+
+.contactdetails{
+  margin-left: 0.3125em;
+  font-family: Dancing Script;
+  color: #4d0715;
+  font-size: 2.5em;
+
+}
+.contactdetails_content{
+  margin-left: 0.3125em;
+  font-family: Kalam;
+  color: #4d0715;
+  font-size: 1.5em;
+
+}
+
+ .footer_icons { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+ .footer_icons i{
+  padding: 10px;
+  background-color: #4d0715;
+  border: 1px solid #4d0715;
+  color: Ivory;
+
+ }
+
+ .footer_icons_label{
+    font-family: Satisfy;
+    font-weight: bold;
+    color: #4d0715;
+    font-size: 25px;
+  }
+
+ .footer_icons i:hover{
+       background-color: Ivory;
+       color: #4d0715;
+       transition: background-color 0.2s;
+       box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6), 0 4px 8px 0 rgba(0,0,0,0.6);
+       transition: box-shadow 0.2s;
+}
+
+

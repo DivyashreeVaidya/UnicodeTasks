@@ -1,0 +1,51 @@
+body{
+	background-color: Gainsboro;
+}
+* {
+  box-sizing: border-box;
+}
+
+.main_heading{
+	text-align: Center;
+	color:   #414b54;
+ 	font-family: Spectral;
+ 	font-size: 2em;
+ 	font-weight: 580;
+}
+.subheading{
+	text-align: Center;
+	color:   #414b54;
+ 	font-family: Spectral;
+ 	font-size: 0.1em;
+
+}
+  table,th,td{
+
+  	border: 0.2em solid GhostWhite;
+  	border-collapse: collapse;
+  	font-family: Patrick Hand;
+ 	font-size: 1em;
+ 	color: GhostWhite;
+}
+ /*.table{
+ 	
+ }*/
+ 
+ table{
+    max-width: 100%;
+    width: 60%;
+ 	height: auto;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	align-content: center;
+ 	background-color: #464646;
+}  
+  th{
+  	background-color: #3a3a3a;
+  	font-size: 1.5em;
+  }
+
+
+  th,td{
+    padding: 1em;
+}
