@@ -19,7 +19,7 @@ created a fade-out separator using gradients to separate header from profile pic
 * -used flexbox for the footer fontawesome icons, each redirecting to my respective social media page/ linkedIn/Github. Shadow and color change highlight on hovering cursor usedfor these icons as well. added a copyright stamp at the end of each page.
 
 
-##SCREENSHOTS
+## SCREENSHOTS
 1.Homepage
 ![homepage](/Screenshots/Homepage.png)
 2.About Me
